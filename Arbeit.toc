@@ -1,0 +1,10 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Einleitung: Comedy und Wissenschaft}{3}% 
+\contentsline {section}{\numberline {2}Allgemeine Transformation einer physikalischen Gr\IeC {\"o}\IeC {\ss }e}{4}% 
+\contentsline {section}{\numberline {3}C-Transformation und C-Invarianz}{5}% 
+\contentsline {section}{\numberline {4}P-Transformation und P-Invarianz}{6}% 
+\contentsline {section}{\numberline {5}T-Transformation und T-Invarianz}{7}% 
+\contentsline {section}{\numberline {6}CP-Transformation als Kombination zweier Transformationen}{8}% 
+\contentsline {section}{\numberline {7}experimenteller Nachweis der CP-Verletzung}{9}% 
+\contentsline {section}{\numberline {8}T-Verletzung als Folge der CP-Verletzung und damit erwiesene Zeitrichtung}{10}% 
+\contentsline {section}{\numberline {9}Sp\IeC {\"a}terer Nachweis der T-Verletzung (in kurzer Form)}{11}% 

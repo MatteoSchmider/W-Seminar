@@ -1,0 +1,175 @@
+\documentclass[12pt,a4paper]{scrartcl}
+% scrartcl ist eine abgeleitete Artikel-Klasse im Koma-Skript
+% zur Kontrolle des Umbruchs Klassenoption draft verwenden
+
+
+% die folgenden Packete erlauben den Gebrauch von Umlauten und ß
+% in der Latex Datei
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+
+\usepackage[pdftex]{graphicx}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{xcolor}
+
+
+% Abstand obere Blattkante zur Kopfzeile ist 2.54cm - 15mm
+\setlength{\topmargin}{-15mm}
+
+
+% Umgebungen für Definitionen, Sätze, usw.
+% Es werden Sätze, Definitionen etc innerhalb einer Section mit
+% 1.1, 1.2 etc durchnummeriert, ebenso die Gleichungen mit (1.1), (1.2) ..
+\newtheorem{Satz}{Satz}[section]
+\newtheorem{Definition}[Satz]{Definition}
+\newtheorem{Lemma}[Satz]{Lemma}
+
+\numberwithin{equation}{section}
+
+% einige Abkuerzungen
+\newcommand{\C}{\mathbb{C}} % komplexe
+\newcommand{\K}{\mathbb{K}} % komplexe
+\newcommand{\R}{\mathbb{R}} % reelle
+\newcommand{\Q}{\mathbb{Q}} % rationale
+\newcommand{\Z}{\mathbb{Z}} % ganze
+\newcommand{\N}{\mathbb{N}} % natuerliche
+
+
+
+\begin{document}
+  % Keine Seitenzahlen im Vorspann
+  \pagestyle{empty}
+
+  % Titelblatt der Arbeit
+  \begin{titlepage}
+
+    \vspace*{2cm}
+
+ \begin{center} \large
+
+    Seminararbeit
+    \vspace*{2cm}
+
+    {\huge Zeitreisen im Spiegel}
+    \vspace*{2.5cm}
+
+    Matteo Schmider
+    \vspace*{1.5cm}
+
+    05.11.2019
+    \vspace*{4.5cm}
+
+
+    Betreuung: Johannes Klees \\[1cm]
+    W-Seminar Wissenschaft und Comedy \\[1cm]
+		Simpert-Kraemer Gymnasium Krumbach
+  \end{center}
+\end{titlepage}
+
+
+
+  % Inhaltsverzeichnis
+  \tableofcontents
+
+\newpage
+
+
+
+  % Ab sofort Seitenzahlen in der Kopfzeile anzeigen
+  \pagestyle{headings}
+
+  \section{Einleitung: Comedy und Wissenschaft}
+
+Die Sache mit der Zeit... Die Physik als Naturwissenschaft hat es sich zum unumstößlichen Ziel gemacht, alle natürlichen Vorkommnisse erklären und beschreiben zu können, so genau und mathematisch schön wie überhaupt nur möglich und wenn dazu noch Raum ist, mit wiederholbaren, klaren empirischem Nachweis. Die ausführenden Physiker könnten jedoch in ihrer Person kaum unterschiedlicher sein.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{Allgemeine Transformation einer physikalischen Größe}
+
+Eine Transformation f einer physikalischen Größe X ist im Allgemeinen immer eine Abbildung der Art
+\begin{align}
+    f: X \to X'
+\end{align}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{C-Transformation und C-Invarianz}
+
+Die C-Transformation hat ihren Namen von "charge" (engl. Ladung) und spiegelt die Ladung eines betrachteten Teilchens. Nachdem Elementarteilchen eine festgelegte Ladung besitzen, ist diese Operation in der Realität als das Ersetzen des Teilchens durch das dazugehörige Antiteilchen zu verstehen. Wenn man von einem
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{P-Transformation und P-Invarianz}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{T-Transformation und T-Invarianz}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{CP-Transformation als Kombination zweier Transformationen}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{experimenteller Nachweis der CP-Verletzung}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{T-Verletzung als Folge der CP-Verletzung und damit erwiesene Zeitrichtung}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{Späterer Nachweis der T-Verletzung (in kurzer Form)}
+
+  % Literaturverzeichnis (beginnt auf einer ungeraden Seite)
+  \newpage
+
+\begin{thebibliography}{Lam00}
+
+\end{thebibliography}
+
+
+  % ggf. hier Tabelle mit Symbolen
+  % (kann auch auf das Inhaltsverzeichnis folgen)
+
+\newpage
+
+ \thispagestyle{empty}
+
+
+\vspace*{8cm}
+
+
+\section*{Erklärung}
+
+Ich  versichere  wahrheitsgemäß,  die  Arbeit selbstständig verfasst,  alle  benutzten  Hilfsmittel  vollständig  und  genau  angegeben  und  alles kenntlich  gemacht  zu  haben,  was  aus  Arbeiten  anderer  unverändert  oder  mit  Abänderungen entnommen  wurde,  sowie die Satzung  des  KIT  zur  Sicherung guter wissenschaftlicher Praxis in der jeweils gültigen Fassung beachtet zu haben.
+\\[2ex]
+
+\noindent
+Ort, den Datum\\[5ex]
+
+% Unterschrift (handgeschrieben)
+
+
+
+\end{document}
