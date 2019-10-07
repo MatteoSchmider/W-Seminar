@@ -83,7 +83,8 @@
 
   \section{Einleitung: Comedy und Wissenschaft}
 
-Die Sache mit der Zeit... Die Physik als Naturwissenschaft hat es sich zum unumstößlichen Ziel gemacht, alle natürlichen Vorkommnisse erklären und beschreiben zu können, so genau und mathematisch schön wie überhaupt nur möglich und wenn dazu noch Raum ist, mit wiederholbaren, klaren empirischem Nachweis. Die ausführenden Physiker könnten jedoch in ihrer Person kaum unterschiedlicher sein.
+Die Sache mit der Zeit...
+Erst vor kurzem strahlte der deutsche Fernsehsender ProSieben die latzte Staffel der Serie "The Big Bang Theory" aus. Bekanntermaßen handelt die Serie von der WG der beiden fiktiven Physiker Dr. Leonard Leakey Hofstadter und Dr. Dr. Sheldon Lee Cooper und ihrem "Nerd-Dasein", was im starken Widerspruch zum Charakter ihrer Nachbarin, Penny steht. Die Serie ist unter anderem für die vielen, oft komödischen, Anspielungen auf reale Physikalische Phänomene und Theorien. \iffalse 1-5 Zeilen Nacherzählung der Serie \fi Ihren Höhepunkt erreicht die Serie jedoch in ihrer letzten Folge, deren Hauptinhalt die Nobelpreisverleihung an Sheldon und Amy für ihre Theorie der Super-Asymmetrie. In dieser Arbeit möchte ich einen Einblick in die Bedeutung von Symmetrien und Asymmetrien in der Physik geben, anhand des erstaunlichen Phänomens der T-Verletzung. Die T-Verletzung ist eine Schlussfolgerung aus der experimentell nachgewiesenen CP-Verletzung und der Gültigkeit der CPT-Theorie, wobei die CP-Verletzung und damit auch die T-Verletzung historisch als unmöglich betrachtet wurden. \iffalse Letzte zwei Sätze zu abstrakt, müssen besser zu lockererem Stil der Einleitung passen, Einleitung soll trotzdem noch möglichst genau das Thema vorbereiten \fi
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
@@ -91,11 +92,25 @@ Die Sache mit der Zeit... Die Physik als Naturwissenschaft hat es sich zum unums
 
   \section{Allgemeine Transformation einer physikalischen Größe}
 
-Eine Transformation f einer physikalischen Größe X ist im Allgemeinen immer eine Abbildung der Art
+Eine Transformation f einer physikalischen Größe x ist im Allgemeinen immer eine Abbildung der Art
 \begin{align}
-    f: X \to X'
+    f: x' \to x
 \end{align}
-
+Um beispielsweise die Masse eines Objekts zu verdoppeln:
+\begin{align}
+    f(m) = 2m
+\end{align}
+Ein Beispiel für eine wichtige Transformation in der Physik ist die Lorentz-Transformation:
+\begin{align}
+  \begin{split}
+    t' &= \gamma(t - \frac{v_x}{c^2}x) \\ x' &= \gamma(x -v_x t) \\ y' &= y \\ z' &= z \\ v_x' &= -v_x
+  \end{split}
+\end{align}
+Diese Transformation beschreibt, wie ein Inertialsystem A am Ort $ \vec{r} = \begin{pmatrix}x'\\y'\\z'\end{pmatrix} $, mit konstanter Geschwindigkeit $v_x'$ in x-Richtung relativ zum Beobachter-System B, zur Zeit t' und B ineinander überführt werden können. Die Lorentz-Transformation ist für die relativistische Raumzeit gültig und ersetzt darin die Galilei-Transformation.
+Wichtig für den weiteren Verlauf der Arbeit ist jedoch vor allem die grundlegende Transformation der Spiegelung:
+\begin{align}
+    f: x' \to - x
+\end{align}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
@@ -103,7 +118,7 @@ Eine Transformation f einer physikalischen Größe X ist im Allgemeinen immer ei
 
   \section{C-Transformation und C-Invarianz}
 
-Die C-Transformation hat ihren Namen von "charge" (engl. Ladung) und spiegelt die Ladung eines betrachteten Teilchens. Nachdem Elementarteilchen eine festgelegte Ladung besitzen, ist diese Operation in der Realität als das Ersetzen des Teilchens durch das dazugehörige Antiteilchen zu verstehen. Wenn man von einem
+Die C-Transformation hat ihren Namen von "charge" (engl. Ladung) und spiegelt die Ladung eines betrachteten Teilchens. Nachdem Elementarteilchen eine festgelegte Ladung besitzen, ist diese Operation in der Realität als das Ersetzen des Teilchens durch das dazugehörige Antiteilchen zu verstehen. Das Antiteilchen besitzt immer dieselbe Masse und Eigenschaften des Ausgangs-Teilchens,
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \newpage  % neuer Abschnitt auf neue Seite, kann auch entfallen
