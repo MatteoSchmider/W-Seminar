@@ -1,0 +1,911 @@
+@charset "utf-8";
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight:300;
+	font-size:115%;
+	color: #606060;
+}
+.MathJax {
+	font-size: 100%
+}
+.hauptartikel {
+	font-size: 100%
+}
+dl dd, dl dt {
+	font-size: 100%
+}
+li dl dd {
+	font-size: 100%
+}
+td p, #div-wikibox td li {
+	font-size: 85%;
+	text-align: left !important;
+	word-wrap: break-word
+}
+#div-elementbox th {
+	color: #000
+}
+#div-wikibox td ul {
+	position: relative;
+	left: -30px !important
+}
+#div-wikibox td {
+	word-wrap: break-word !important
+}
+#div-wikibox td table td {
+	padding: 1px;
+	text-align: center
+}
+blockquote p {
+	font-size: 130%
+}
+td.mw-allpages-nav {
+	width: 40% !important
+}
+/**
+  * display nons
+  */
+span.latitude, span.longitude, span.elevation, div#Vorlage_Dieser_Artikel table, div.sisterproject, table#Vorlage_Uberarbeiten, table.Vorlage_Belege_fehlen, table.Vorlage_NurListe, table#Vorlage_Begriffsklärung, table#Vorlage_Begriffskl.C3.A4rungshinweis, table#Vorlage_Weiterleitungshinweis, table#Vorlage_Begriffsklaerungshinweis, div#Vorlage_Begriffsklärung, div#Vorlage_Begriffskl.C3.A4rungshinweis, div#Vorlage_Weiterleitungshinweis, div.noprint, table.noprint, div.geo, div.microformat, span.geo, span.microformat, div#Vorlage_QS-Biologie, table#Vorlage_Doppeleintrag, table#Vorlage_Deutschlandlastig, table#Vorlage_Exzellent, table#Vorlage_Lueckenhaft, div#normdaten, hr, table#Vorlage_Dieser_Artikel, #Vorlage_Doppeleintrag, #jump-to-nav, .editsection, .printfooter, #siteSub, span.mw-editsection, span.mw-editsection-bracket, ul#filetoc, #toc, .toc, #qualitaetssicherungstext {
+	display: none
+}
+/**
+  * Kategorie:xxx
+  */
+.mw-category-group:nth-child(3n+4) {
+	clear: left;
+}/**/
+.mw-category-group {
+	float: left;
+	width: 32%;
+	margin-right: 5px;
+	font-size: 90%;
+	padding-right: 3px
+}
+.mw-category-group li {
+	text-align: left;
+}
+#mw-subcategories h2, #mw-pages h2 {
+	font-size: 160%;
+	border-top: 1px solid #eaeaea;
+	padding-top: 20px;
+	margin-top: 15px
+}
+#mw-pages {
+	clear: left;
+}
+/**
+  * Spezial:Alle Seiten
+  */
+.mw-allpages-chunk li, .mw-spcontent ul li {
+	float: left;
+	width: 32%;
+	text-align: left;
+	margin-right: 5px;
+	font-size: 90%;
+	padding-right: 3px
+}
+.mw-spcontent ul {
+	float: none
+}
+.mw-allpages-nav {
+	clear: left
+}
+.mw-label {
+	width: 30%;
+	padding: 5px;
+	margin: 5px;
+	font-weight: normal;
+}
+.mw-input {
+	width: 70%;
+	padding: 5px;
+	margin: 5px
+}
+label[for="nsfrom"], label[for="nsto"], label[for="namespace"], label[for="hidredirects"], label[for="from"] {
+	font-weight: normal;
+	color: #3993ac
+}
+input#nsfrom, input#nsto, fieldset table {
+	width: 100%
+}
+fieldset table, fieldset table td {
+	border:none;
+}
+input#nsfrom, input#nsto, .mw-ui-input-inline, .mw-ui-input, input[type='search'] {
+	border: 1px solid #eaeaea;
+	border-radius: 3px;
+	padding: 5px;
+	color: #F66
+}
+/**
+  * Suche
+  */
+#mw-search-top-table {/*display:flex; align-items:stretch; justify-content:space-between;*/
+	padding-bottom: 15px;
+	padding-top: 15px;
+	/*border-bottom: 1px solid #eaeaea;*/
+	border-top: 1px solid #eaeaea;
+}
+input[type='search'] {
+	width: 70% !important;
+	margin-bottom: 20px;
+	float: left;
+}
+button.oo-ui-buttonElement-button {
+	float: right
+}
+.mw-search-profile-tabs, .results-info {
+	clear: both;/*border-top: 1px solid #eaeaea;<div class="">*/
+}
+.search-types {
+	clear: both;
+	border-top: 1px solid #eaeaea;
+}
+.search-types ul li {
+	padding: 2px 6px;
+	background-color: #dfe8eb;
+	border-color: #d7e0e2;
+	color: #333;
+	float: left;
+	margin: 15px;
+	list-style: none;
+}
+/**
+  * Anmelden
+  */
+.mw-htmlform-field-HTMLTextField, .warningbox {
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 20px;
+	margin-bottom: 15px
+}
+/**
+  * Bearbeiten
+  */
+.editOptions, .editpage-copywarn, .editCheckboxes, .mw-htmlform-field-HTMLSelectNamespace, .mw-allpages-nav, .mw-allpages-body, .mw-spcontent ul, .mw-category {
+	border-top: 1px solid #eaeaea;
+	padding-top: 20px;
+	margin-top: 15px
+}
+.mw-spcontent form {
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 20px;
+	margin-bottom: 15px
+}
+#wpTextbox1 {
+	font: normal 13px/16px "Courier New", Courier, monospace !important;
+	color: #666;
+	background-color: #f6f6f6;
+	padding: 12px;
+	width: 100%
+}
+.editButtons input, .mw-htmlform-submit, .mw-allpages-nav a, .mw-lastlink, .mw-firstlink, .mw-numlink, .mw-nextlink, input[value="Anzeigen"], button.oo-ui-buttonElement-button {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #5bc0de;
+	border-color: #46b8da
+}
+.mw-lastlink, .mw-firstlink, .mw-numlink, .mw-nextlink, .mw-prevlink {
+	padding: 1px 3px;
+	background-color: #dfe8eb;
+	border-color: #d7e0e2;
+	color: #333;
+}
+.editButtons input:hover, .mw-htmlform-submit:hover, .mw-allpages-nav a:hover {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad
+}
+.editButtons input.active, .open>.dropdown-toggle.editButtons input {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad
+}
+.editButtons input.active.focus, .editButtons input.active:focus, .editButtons input.active:hover, .editButtons input:active.focus, .editButtons input:active:focus, .editButtons input:active:hover, .open>.dropdown-toggle.editButtons input.focus, .open>.dropdown-toggle.editButtons input:focus, .open>.dropdown-toggle.editButtons input:hover {
+	color: #333;
+	background-color: #d4d4d4;
+	border-color: #8c8c8c
+}
+.editButtons input.active, .editButtons input:active, .open>.dropdown-toggle.editButtons input {
+	background-image: none
+}
+.editButtons input.disabled.focus, .editButtons input.disabled:focus, .editButtons input.disabled:hover, .editButtons input[disabled].focus, .editButtons input[disabled]:focus, .editButtons input[disabled]:hover, fieldset[disabled] .editButtons input.focus, fieldset[disabled] .editButtons input:focus, fieldset[disabled] .editButtons input:hover {
+	background-color: #fff;
+	border-color: #ccc
+}
+.editButtons input .badge {
+	color: #fff;
+	background-color: #333
+}
+/**
+  * Datei
+  */
+.mw-filepage-resolutioninfo {
+	border-top: 1px solid #eaeaea;
+	padding: 12px 0;
+	margin: 5px 0
+}
+.mw-filepage-other-resolutions {
+	border-bottom: 1px solid #eaeaea;
+	padding: 12px 0;
+	margin: 5px 0;
+	float: left;
+	clear: both
+}
+.fullMedia {
+	border-bottom: 1px solid #eaeaea;
+	/*border-top: 1px solid #eaeaea;*/
+	padding: 12px 0;
+	margin: 3px 0;
+	clear:both;
+}
+.sharedUploadNotice p {
+	border-bottom: 1px solid #eaeaea;
+	padding: 12px 0;
+	margin: 5px 0;
+	line-height: 20px
+}
+table.fileinfotpl-type-information, table.mw_metadata, table.toccolours {
+	border-top: 1px solid #eaeaea;
+	border-collapse: collapse;
+	margin-bottom: 15px
+}
+table.toccolours td table {font-size:120% !important}
+table.mw_metadata {margin-top:15px}
+table.fileinfotpl-type-information td, table.layouttemplate td, table.mw_metadata td, table.mw_metadata th, table.toccolours td {
+	padding: 5px;
+	vertical-align: top;
+	border: 1px solid #eaeaea;
+	font-size:85% !important;
+}
+
+.fullImageLink img {
+	margin-bottom: 15px;
+	margin-left:auto;
+	margin-right:auto;/**/
+}
+h2#filehistory, h2#filelinks, h2#metadata, h2 span#Lizenz  {
+	font-size: 160%;
+	border-top: 1px solid #eaeaea;
+	padding-top: 20px;
+	margin-top: 15px;
+}
+/*
+  Globale Einstellungen
+*/
+h2 span.mw-headline {
+	font-size: 160% !important
+}
+h3 span.mw-headline {
+	font-size: 130% !important
+}
+.visualClear {
+	clear: both;
+}
+#mw-content-text * {
+	font-size: 100%
+}
+
+div.thumb {
+	width: 100%;
+	margin-bottom: .5em;
+	background-color: transparent;
+    overflow-x: auto !important;	
+}
+
+div.thumbinner {
+	text-align: center;
+	border: 1px solid #cec9bc;
+	border-radius: 7px;
+	background-color: #fcfaf7;
+	padding: 5px;
+	width: 100% !important;
+}
+@media only screen and (min-width:768px) {
+div.thumb {
+	width: 50% !important
+}
+}
+@media only screen and (min-width:991px) {
+div.thumb {
+	width: 45% !important
+}
+}
+@media only screen and (min-width:1200px) {
+div.thumb {
+	width: 42% !important
+}
+}
+html .thumbimage {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+}
+html .thumbcaption {
+	border: none;
+	padding: 3px !important;
+	font: 200 1.1em 'Oswald', sans-serif;
+	text-align: left
+}
+div.magnify {
+	margin-left: 3px;
+	float: right;
+}
+div.magnify a {
+	display: block;
+	text-indent: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 19px;
+	height: 25px;
+	background: url('/design/iconSprites.png') 0px -25px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+img.thumbborder {
+	border: 1px solid #dddddd;
+}
+.right, .tright {
+	float: right;
+	clear: right;
+	margin: 0 0 5px 25px;
+}
+.left, .tleft, .tnone {
+	float: left;
+	/*clear: both;*/
+	margin: 0 25px 5px 0;
+}
+.tnone {
+	clear: none
+}
+.float-left {
+	float: left;
+	clear: left;
+	margin: 0 25px 5px 0;
+}
+.float-right {
+	float: right;
+	clear: right;
+	margin: 0 0 5px 25px
+}
+ @media only screen and (min-width:381px) and (max-width:767px) {
+div.thumb {
+	width: 50% !important
+}
+div.thumbinner {
+	width: 100% !important
+}
+}
+/* Extra-kleine Geräte (Smartphones Portrait) */ 
+@media only screen and (max-width:380px) {
+div.thumb, div.thumbinner {
+	width: 100% !important
+}
+}
+ul.gallery {
+	margin: 5px 0;
+	padding: 2px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	clear: both;
+	border-top:1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	
+}
+li.gallerybox {
+	margin: 5px 10px 5px 0;
+	float: left;
+	list-style: none
+}
+.gallerytext p {
+	text-align: center;
+	font: 200 15px/20px 'Oswald', sans-serif !important;
+	color:#333333;
+}
+.gallerybox .thumb {
+	width: 100% !important;
+	text-align: center;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	margin: 2px;
+}
+ul.gallery+h2 {
+	clear: left
+}
+/* 
+  Personennamen in Kapitälchen 
+*/ 
+.Person {
+	text-transform: uppercase;
+}
+/* 
+  Formatierung von Zitaten 
+*/ 
+p.Zitat {
+	font-style: normal;
+	margin-bottom: 0em;
+}
+p.cite {
+	margin-top: 0em;
+	padding-left: 1em;
+}
+/* 
+  Quellenangaben nicht kursiv, da sie ggf. verschiedene Bestandteile enthalten 
+*/
+cite {
+	font-style: normal;
+}
+/*
+  Navigationsleisten am Seitenende 
+*/
+div.BoxenVerschmelzen, div.NavFrame {
+	padding: 2px;
+	border: 1px solid #aaaaaa;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 95%;
+	clear: both;
+}
+div.NavFrame, div.NavHead, div.NavContent {
+	font: 11px Arial, Helvetica, sans-serif;
+	text-align: center !important
+}
+div.BoxenVerschmelzen div.NavFrame {
+	margin: 0;
+	border-style: none;
+	border-style: hidden;
+}
+div.NavFrame + div.NavFrame {
+	border-top-style: none;
+	border-top-style: hidden;
+}
+div.NavPic {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 2px;
+	float: left;
+}
+div.NavFrame div.NavHead {
+	height: 1.6em;
+	font-weight: bold;
+	font-size: 100%;
+	background-color: #efefef;
+}
+div.NavFrame p {
+	font-size: 100%;
+}
+div.NavFrame div.NavContent {
+	margin: 0;
+	font-size: 100%;
+	text-align: center
+}
+div.NavFrame div.NavContent p {
+	font-size: 100%;
+}
+div.NavEnd {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1px;
+	clear: both;
+}
+div.BoxenVerschmelzen, div.NavFrame {
+	margin-top: 1.5em;
+}
+div.BoxenVerschmelzen div.NavFrame {
+	margin-top: 0;
+}
+div.NavFrame + div.NavFrame {
+	margin-top: 0;
+}
+/* 
+  Navigationsleisten nicht mit ausdrucken
+*/ 
+@media print {
+.NavFrame {
+	display: none;
+}
+.BoxenVerschmelzen {
+	display: none;
+}
+}
+
+table.taxobox {
+	border-collapse: collapse;
+	border: 1px solid #666
+}
+table.taxobox img {
+	width: 100%;
+	height: auto
+}
+table.taxobox th {
+	background-color: #89a785;
+	border: solid 1px #666 !important;
+	text-align: center;
+	font-weight: bold;
+	color: #000;
+}
+table.taxobox td {
+	vertical-align: top;
+	text-align: left;
+	font-size: 1.1em
+}
+/*table.taxobox td p {font-size:1.1em}*/
+table.taxobox div.thumb, table.taxobox div.thumb * {
+	margin: auto;
+	padding: 0;
+	float: none;
+	border: none;
+	background-color: #F9F9F9;
+}
+table.taxobox div.magnify {
+	display: none;
+}
+table.taxobox th a {
+	color: #000
+}
+div.center {
+	width: 100%;
+	clear: both !important
+}
+.table-scrollable, div.floatnone {
+	/*Angregung geholt von https://blog.kulturbanause.de/2012/06/tabellen-im-responsive-webdesign/. Dazu gehört noch ein jquery script in der MonoBookTemplate.php*/
+	width: auto;
+	overflow-y: auto;
+	margin: 0 0 1em;
+	cursor: grab;
+	cursor: -o-grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+	clear: both !important;
+}
+ .table-scrollable::-webkit-scrollbar, div.floatnone::-webkit-scrollbar {
+ -webkit-appearance: none;
+ width: 14px;
+ height: 14px;
+}
+ .table-scrollable::-webkit-scrollbar-thumb, div.floatnone::-webkit-scrollbar-thumb {
+ border-radius: 8px;
+ border: 3px solid #fff;
+ background-color: rgba(0, 0, 0, .3);
+}
+.table-scrollable::-webkit-scrollbar, div.floatnone::-webkit-scrollbar {
+ -webkit-appearance: none;
+ width: 14px;
+ height: 14px;
+}
+.table-scrollable::-webkit-scrollbar-thumb, div.floatnone::-webkit-scrollbar-thumb {
+ border-radius: 8px;
+ border: 3px solid #fff;
+ background-color: rgba(0, 0, 0, .3);
+}
+.nogrid th, .nogrid td {
+	border: none;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.rahmenfarbe1 {
+	border-color: #aaaaaa;
+	border-width: 1px;
+}
+.rahmenfarbe2 {
+	border-color: #e9e9e9;
+	border-width: 1px;
+}
+.rahmenfarbe3 {
+	border-color: #c00000;
+	border-width: 1px;
+}
+.rahmenfarbe4 {
+	border-color: #8888aa;
+	border-width: 1px;
+}
+.rahmenfarbe5 {
+	border-color: #000000;
+	border-width: 1px;
+}
+.hintergrundfarbe1 {
+	background-color: #f9f9f9 !important;
+}
+.hintergrundfarbe2 {
+	background-color: #ffffff;
+}
+.hintergrundfarbe3 {
+	background-color: #ffff40;
+}
+.hintergrundfarbe4 {
+	background-color: #ffaa00;
+}
+.hintergrundfarbe5 {
+	background-color: #a1b8ce
+}
+tr.hintergrundfarbe5 {
+	color: #eaeaea
+}
+.hintergrundfarbe6 {
+	background-color: #8fc2c5;
+}
+.hintergrundfarbe7 {
+	background-color: #ffcbcb;
+}
+.hintergrundfarbe8 {
+	background-color: #ffebad;
+}
+.hintergrundfarbe9 {
+	background-color: #b9ffc5;
+}
+#content span.coordinates a.external.text:after, #content span.coordinates a.external.autonumber:after {
+	content: "";
+}
+#content div.coordinates a.external.text:after, #content div.coordinates a.external.autonumber:after {
+	content: "";
+}
+/* Do not expand URLs for printing */
+#content span.plainlinks-print a.external.text:after, #content span.plainlinks-print a.external.autonumber:after {
+	content: "";
+}
+#content div.plainlinks-print a.external.text:after, #content div.plainlinks-print a.external.autonumber:after {
+	content: "";
+}
+/*
+  Metadaten (bspw. [[Wikipedia:Personendaten|Personendaten]]) 
+*/
+table.metadata {
+	border: 1px solid #aaaaaa;
+	display: none;
+}
+.metadata-label {
+	color: #aaaaaa;
+}
+/* 
+  Keine Vergrößerung der Zeilenhöhe durch hochgestellte Zahlen der Fußnoten 
+
+.reference, .references sup {font-size:91%; vertical-align:text-top; position:relative; top:-0.3em;}
+*/
+
+/* 
+  Hervorhebung der angeklickten Fußnoten und der Rückverweise in blau 
+*/
+ol.references > li:target {
+	background-color: #DEF;
+}
+sup.reference:target {
+	background-color: #DEF;
+}
+/* 
+  Für ägyptische Hieroglyphen
+*/
+.mw-hierotable {
+	border: 0px;
+}
+.mw-hierotable th, .mw-hierotable td {
+	border: 0px;
+}
+/* 
+  Aussehen von Redirect - Links
+*/ 
+.allpagesredirect {
+	font-style: italic;
+}
+.watchlistredir {
+	font-style: italic;
+}
+.redirect-in-category {
+	font-style: italic;
+}
+/* Einmal gelesene Bestandteile (z.B. in der Sitenotice) ausblenden, sobald css geladen ist */ 
+#gelesen {
+	display: none;
+}
+/* Größerer Abstand zwischen TOC-Nummerierung und TOC-Eintrag */
+span.tocnumber {
+	margin-right: 0.3em;
+}
+/* Skinabhängige absolute Positionierungen ausblenden */
+
+/* 
+Bitte [[MediaWiki Diskussion:Common.css#Absolute_Positionierungen]] beachten 
+*/
+#coordinates_3_ObenRechts, #issnlink, #editcount, #shortcut, #artikelstadium {
+	display: none;
+}
+/*Needed so that both subentrys and non-subentrys both are invisivble */
+/* Anpassungen f�r [[:Template:Link_FA]] */
+/* hide the template */
+#bodyContent span.FA {
+	display: none;
+}
+/* change the bullets for links to special articles */
+#p-lang li.FA {
+	list-style-image: url("http://upload.wikimedia.org/wikipedia/commons/d/d0/Monobook-bullet-star-transparent.png");
+}
+/* without this, special bullets go too far to the left */
+/* .portlet li {list-style-image:url("http://upload.wikimedia.org/wikipedia/commons/1/18/Monobook-bullet.png");} */
+/* DIVs in ImageMaps inlinen (Vorschlag von Revolus) */
+.imagemap-inline div {
+	display: inline;
+	padding: 5px
+}
+/* [[Special:Hochladen]]:Warnmeldung auf bestehende Dateien, unerwünschte Prefixe usw. deutlicher hervorheben. */
+#wpDestFile-warning ul {
+	border: solid red 1px;
+	padding: 1.5em;
+}
+/* [[Special:Renameuser]]:Meldungen erfolgreicher/nicht erfolgreicher Seitenverschiebung nach Benutzernamensumbenennung */
+.mw-renameuser-pm {
+	color: green;
+}
+.mw-renameuser-pe, .mw-renameuser-pu {
+	color: red;
+}
+/* 
+  Bearbeitungs-Tabs nach Anmeldung 
+*/
+li#ca-talk {
+	display: none;
+}
+li#ca-watch, li#ca-unwatch, li#ca-varlang-0, li#ca-print {
+	margin-left: 2px;
+}
+#p-cactions {
+	margin-top: -37px
+}
+#p-cactions .pBody {
+	background-color: transparent;
+	color: inherit;
+	border-collapse: inherit;
+	border: 0;
+	padding: 0;
+}
+#p-cactions .hiddenStructure {
+	display: none;
+}
+#p-cactions li a {
+	text-transform: lowercase;
+	font-size: 9px;
+}
+div#p-cactions {
+	font: 10px Arial, Helvetica, sans-serif;
+	padding: 0px;
+	float: right
+}
+#p-cactions ul {
+	list-style: none;
+}
+#p-cactions li {
+	display: inline;
+	border: 1px solid #767676;
+	border-bottom: none;
+	padding: 0 0 .1em 0;
+	margin: 0 .3em 0 0;
+	overflow: visible;
+	background: white;
+}
+#p-cactions li.selected {
+	border-color: #fabd23;
+	padding: 0 0 .2em 0;
+	font-weight: bold;
+}
+#p-cactions li a {
+	background-color: #fbfbfb;
+	color: #002bb8;
+	border: none;
+	padding: 0 .8em .3em;
+	position: relative;
+	z-index: 0;
+	margin: 0;
+	text-decoration: none;
+}
+#p-cactions li.selected a {
+	z-index: 3;
+	padding: 0 1em .2em!important;
+	background-color: white;
+}
+#p-cactions .new a {
+	color: #ba0000;
+}
+#p-cactions li a:hover {
+	z-index: 3;
+	text-decoration: none;
+	background-color: white;
+}
+#p-cactions h5 {
+	display: none;
+}
+#p-cactions li.istalk {
+	margin-right: 0;
+}
+#p-cactions li.istalk a {
+	padding-right: .5em;
+}
+#p-cactions #ca-addsection a {
+	padding-left: .4em;
+	padding-right: .4em;
+}
+/* Page history styling */
+/* the auto-generated edit comments */
+.autocomment {
+	color: gray;
+}
+#pagehistory span.user {
+	margin-left: 1.4em;
+	margin-right: .4em;
+}
+#pagehistory span.minor {
+	font-weight: bold;
+}
+#pagehistory li {
+	border: 1px solid white;
+}
+#pagehistory li.selected {
+	background-color: #f9f9f9;
+	border: 1px dashed #aaa;
+}
+/**
+ * Categories
+ */
+#catlinks {/**
+	 * Overrides text justification (user preference)
+	 * See bug 31990
+	 */
+	text-align: left;
+}
+.catlinks ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+vertical-align: middle !ie;
+}
+.catlinks li {
+	display: inline-block;
+	line-height: 1.25em;
+	border-left: 1px solid #AAA;
+	margin: 0.125em 0;
+	padding: 0 0.5em;
+	zoom: 1;
+display: inline !ie;
+}
+.catlinks li:first-child {
+	padding-left: 0.25em;
+	border-left: none;
+}
+/**
+ * Hidden categories
+ */
+.mw-hidden-cats-hidden {
+	display: none;
+}
+.catlinks-allhidden {
+	display: none;
+}
+#catlinks a {
+	color: #3fa1bb !important;
+}
+#catlinks a:hover {
+	color: #317a8e !important;
+}

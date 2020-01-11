@@ -1,0 +1,142 @@
+\documentclass{beamer}
+\usetheme{Dresden}
+\usepackage[ngerman]{babel}
+\usepackage{latexsym}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{mhchem}
+\usepackage{braket}
+\usepackage{hyperref}
+\usepackage{gensymb}
+
+% \usepackage{beamerthemesplit} // Activate for custom appearance
+
+\title{Asymmetrien der Physik}
+\author{Matteo Schmider}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Inhaltsverzeichnis}\tableofcontents
+\end{frame}
+
+\section{Einführung}
+\subsection{Symmetrische Eigenschaften der Physik}
+\frame
+{
+  \frametitle{Features of the Beamer Class}
+
+}
+\subsection{Symmetrieeigenwerte}
+\frame
+{
+  \frametitle{Features of the Beamer Class}
+
+}
+\section{CPT-Theorem}
+\subsection{C-Symmetrie}
+\frame
+{
+  \frametitle{Features of the Beamer Class}
+
+}
+\subsection{P-Symmetrie}
+\frame
+{
+  \frametitle{Features of the Beamer Class}
+
+}
+\subsection{T-Symmetrie}
+\frame
+{
+  \frametitle{Allgemein}
+  \begin{itemize}
+    \item Invarianz unter Zeitumkehr, d.h. unter der Transformation
+      \begin{align}
+        T: t \to -t
+      \end{align}
+      \pause
+    \item Aufgrund der Erscheinung in realen Beispielen Bewegungsumkehr genannt
+    \item Vorstellbar als das rückwärts Abspielen eines Videos
+  \end{itemize}
+}
+\frame
+{
+  \frametitle{Beispiel Fadenpendel}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      Auslenkung zur Zeit $t_{0}$:\\
+      Geschwindigkeit zur Zeit $t_{0}$:
+    \end{column}
+    \begin{column}{0.5\textwidth}  %%<--- here
+      10\degree\\
+      0
+    \end{column}
+  \end{columns}
+}
+\subsection{Logik der Zusammensetzung}
+\frame
+{
+  \frametitle{CPT als \glqq{höhere}\grqq{} Symmetrie}
+  \begin{itemize}
+    \item Idee:\\Invarianz unter Hintereinanderausführung der Transformationen \pause
+    \item Invarianz-Regel:\\Verletzung einer Symmetrie wird durch die zwei weiteren Transformationen aufgehoben 
+  \end{itemize}
+}
+\section{Symmetriebrechungen}
+\subsection{Paritätsverletzung}
+\frame
+{
+  \begin{figure} [!ht]
+  \begin{tikzpicture}
+  \begin{axis}[
+    view={35}{15},
+    axis lines=center,
+    width=10cm,height=9cm,
+    xmin=-2,xmax=2,ymin=-2,ymax=2,zmin=-3,zmax=2
+  ]
+  % plot dots for the two points
+  \addplot3 [only marks] coordinates {(1,1,1) (-1,-1,-1)};
+  % label points
+  \node [above right] at (axis cs:1,1,1) {$\ce{^{60}_{27}Co}$};
+  \node [below left] at (axis cs:-1,-1,-1) {$\ce{^{60}_{27}Co}'$};
+  \draw [->, thick] (axis cs:1,1,1) -- (axis cs:1,1,2);
+  \draw [->, thick] (axis cs:-1,-1,-1) -- (axis cs:-1,-1,0);
+  \node [right] at (axis cs:1,1,2) {Spin};
+  \node [below left] at (axis cs:-1,-1,0) {$Spin'$};
+  \draw [->, dotted] (axis cs:1,1,1) -- (axis cs:1,1,0);
+  \draw [->, dotted] (axis cs:-1,-1,-1) -- (axis cs:-1,-1,-2);
+  \node [below right] at (axis cs:1,1,0) {$e_1^-$};
+  \node [below right] at (axis cs:-1,-1,-2) {$e_2^-$};
+  \end{axis}
+  \end{tikzpicture}
+  \caption{P-Verletzung}
+  \end{figure}
+}
+\frame
+{
+  \frametitle{Folgerungen}
+  \begin{itemize}
+    \item Erwartung: Gleiche Menge an Elektronen auf beiden Seiten \pause
+    \item Realität: Es verlassen mehr Elektronen die Atome entgegen der Spin-Richtung \pause
+  \end{itemize}
+  $\Rightarrow$ Parität verletzt
+}
+\subsection{CP-Verletzung}
+\frame
+{
+  \frametitle{Features of the Beamer Class}
+
+}
+\subsection{T-Verletzung}
+\frame
+{
+  \frametitle{Features of the Beamer Class}
+
+}
+\end{document}

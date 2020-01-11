@@ -1,0 +1,13 @@
+\babel@toc {ngerman}{}
+\beamer@sectionintoc {1}{Einf\IeC {\"u}hrung}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Symmetrische Eigenschaften der Physik}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Symmetrieeigenwerte}{4}{0}{1}
+\beamer@sectionintoc {2}{CPT-Theorem}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{C-Symmetrie}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{P-Symmetrie}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{T-Symmetrie}{7}{0}{2}
+\beamer@subsectionintoc {2}{4}{Logik der Zusammensetzung}{10}{0}{2}
+\beamer@sectionintoc {3}{Symmetriebrechungen}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Parit\IeC {\"a}tsverletzung}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{CP-Verletzung}{16}{0}{3}
+\beamer@subsectionintoc {3}{3}{T-Verletzung}{17}{0}{3}
